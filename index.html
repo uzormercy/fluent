@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            main: "#304747",
+                            dark: "#212833",
+                            gray: "#5E5F6E",
+                            white: "#F7F7F7",
+                        }
+                    },
+            }
+        }
+    }
+        </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/custom.css">
+    <title>Fluent</title>
+</head>
+<body class="w-full">
+    <main class="w-full">
+        <header class="w-full">
+            <!-- Header One for advertisement -->
+            <section class="w-full min-h-12 bg-primary-main flex justify-center items-center text-white gap-3">
+                <p class="py-3 px-2">🚀 Fluent raises $10M Series B from GoTo Financial and Indika Group </p>
+                <div class="w-px h-5 bg-slate-500"></div>
+                <a href="#" class="px-2 py-3 font-medium flex justify-center items-center gap-2">Read more <i class="fa-solid fa-caret-right text-slate-400"></i></a>
+            </section>
+            <section class="w-full border-b h-24 ">
+                <!-- Header Two for navigation -->
+                <nav class="flex justify-between items-center h-full mx-auto w-[90%]">
+                    <a href="#" class="text-primary-dark font-medium text-3xl">Fluent</a>
+                    <div>
+                        <ul class="flex justify-between items-center gap-5 text-md">
+                            <li><a href="#">Solutions <i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+                            <li><a href="#">Industries <i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Resources</a></li>
+                            <li><a href="#">Company</a></li>
+                        </ul>
+                    </div>
+                    <div class="flex justify-start items-center gap-6">
+                        <a href="" class="text-md">Sign in </a>
+                        <button class="h-12 w-40 bg-primary-main text-white cursor-pointer px-4 text-md">Talk to sales</button>
+                    </div>
+                </nav>
+            </section>
+        </header>
+        <section class="w-full relative">
+            <div class="container mx-auto">
+                <div class="flex justify-between items-center gap-6 pb-6 pt-16">
+                    <div class="w-[55%]">
+                        <div>
+                            <h4 class="uppercase font-normal text-primary-main text-md tracking-[0.1em]">Help your business level up</h4>
+                            <h1 class="text-primary-dark text-7xl font-semibold leading-[4rem] pt-3 pb-5 font-inter">Trusted influencer for your business</h1>
+                            <p class="text-primary-gray text-xl py-3 font-light leading-[2.5rem]">The internet and social media have become effective <br/> areas for marketing a product, Fluent is here to <br/> maximize that potential.</p>
+                        </div>
+                        <div class="mt-5 flex gap-3">
+                            <button class="h-16 w-40 bg-primary-main text-white">Get Started Now</button>
+                            <button class="h-16 w-40 border border-primary-main text-primary-main">Learn More</button>
+                        </div>
+                        <!-- Testimonial -->
+                        <div></div>
+                    </div>
+                    <div class="w-[45%]">
+                        <div class="h-[600px] relative">
+                            <img src="./images/jpg/banner.jpg" alt="hero" class="w-full h-full object-cover absolute top-0 left-0 z-0">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
